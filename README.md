@@ -3,6 +3,8 @@
 
 This repository contains an Azure Resource Manager (ARM) template and a parameters file to deploy resources for removing elevated access (User Access Administrator role) from a user using an Azure Automation Account with Managed Identity. The setup includes a Logic App to automate the process.
 
+For a detailed step-by-step guide, please refer to the blog post on the solution: https://www.chanceofsecurity.com/post/restrict-elevated-access-microsoft-entra-logic-app
+
 ## Contents
 
 - `template.json`: The ARM template defining the resources to be deployed.
